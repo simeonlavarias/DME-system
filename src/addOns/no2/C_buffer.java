@@ -7,6 +7,27 @@ import java.util.Set;
 public class C_buffer {
 
 	private Vector<Request> buffer;
+
+	private Set<Integer> activePorts = new HashSet<>();
+
+	public synchronized void registerNodePort(String port) {
+		activePorts.add(Integer.parseInt(port));
+	}
+
+	public synchronized Set<Integer> getActivePorts() {
+		return new HashSet<>(activePorts); // Return a copy to avoid direct mutation
+	}
+
+	private Set<String> registeredPorts = new HashSet<>();
+
+	public synchronized void registerNode(String port) {
+		registeredPorts.add(port);
+	}
+
+	public synchronized Set<String> getRegisteredPorts() {
+		return new HashSet<>(registeredPorts);
+	}
+
 	public C_buffer() {
 		buffer = new Vector<Request>();
 	}
@@ -27,6 +48,7 @@ public class C_buffer {
 
 	public synchronized void saveRequest(String ip, String port, String priority) {
 		buffer.add(new Request(ip, port, priority));
+		registerNode(port); // Automatically track the node
 	}
 
 	public synchronized int size() {

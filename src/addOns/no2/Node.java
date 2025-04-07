@@ -36,6 +36,8 @@ public class Node{
     	// and immediately opens a server socket through which will receive 
     	// a TOKEN (actually just a synchronization).
 
+		new ShutdownListener(n_port).start();
+
 		while (true) {
 			// 1. Sleep before requesting token
 			try {
@@ -74,7 +76,13 @@ public class Node{
 				BufferedReader bin = new BufferedReader(new InputStreamReader(n_token.getInputStream()));
 				String msg = bin.readLine();
 
-				if ("TOKEN".equals(msg)) {
+				if ("SHUTDOWN".equals(msg)) {
+					System.out.println("[" + n_port + "] Shutdown signal received. Terminating node.");
+					Logger.log("Node " + n_port + " received shutdown signal. Shutting down.");
+					n_token.close();
+					n_ss.close();
+					System.exit(0);  // ✅ Node shuts down gracefully
+				} else if ("TOKEN".equals(msg)) {
 					System.out.println("[" + n_port + "] Token received! Entering critical section...");
 
 					int criticalTime = ra.nextInt(3000) + 2000;
@@ -101,7 +109,24 @@ public class Node{
 								out.println("SHUTDOWN");
 								shutdownSocket.close();
 								System.out.println("[" + n_port + "] Shutdown request sent to coordinator.");
-								break; // Exit this node's loop gracefully
+								// Wait for coordinator shutdown broadcast
+								try {
+									System.out.println("[" + n_port + "] Waiting for SHUTDOWN confirmation from coordinator...");
+									ServerSocket shutdownServer = new ServerSocket(n_port);
+									Socket shutdownSignal = shutdownServer.accept();
+									BufferedReader shutdownReader = new BufferedReader(new InputStreamReader(shutdownSignal.getInputStream()));
+									String shutdownMsg = shutdownReader.readLine();
+									if ("SHUTDOWN".equals(shutdownMsg)) {
+										System.out.println("[" + n_port + "] Final shutdown signal received from coordinator. Exiting.");
+										Logger.log("Node " + n_port + " shutting down after initiating shutdown.");
+									}
+									shutdownSignal.close();
+									shutdownServer.close();
+								} catch (IOException e) {
+									System.out.println("[" + n_port + "] ERROR waiting for final SHUTDOWN: " + e);
+								}
+
+								System.exit(0);
 							} catch (IOException e) {
 								System.out.println("[" + n_port + "] ERROR sending shutdown request: " + e);
 							}

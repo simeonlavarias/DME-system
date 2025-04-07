@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.Socket;
 // Reacts to a node request.
 // Receives and records the node request in the buffer.
@@ -30,16 +31,37 @@ public class C_Connection_r extends Thread{
 
 			String line = bin.readLine();
 
-			// ✅ Handle shutdown request
 			if ("SHUTDOWN".equals(line)) {
 				Logger.log("Coordinator received shutdown signal. Initiating graceful shutdown.");
 				System.out.println("C: SHUTDOWN signal received from node.");
 
-				// ✅ Final shutdown log
-				Logger.log("System shutdown complete.");
+				// Wait briefly to let nodes open their shutdown listeners
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
 
+				// List of known node ports (the ones their ServerSockets run on)
+				int[] nodePorts = {6001, 6002};  // Add all your active node ports here
+
+				for (int nodePort : nodePorts) {
+					try {
+						Socket shutdownSocket = new Socket("127.0.0.1", nodePort + 100);  // +100 to reach their shutdown listener
+						PrintWriter out = new PrintWriter(shutdownSocket.getOutputStream(), true);
+						out.println("SHUTDOWN");
+						shutdownSocket.close();
+						System.out.println("C: Sent SHUTDOWN to node on port " + nodePort);
+						Logger.log("Sent shutdown message to node " + nodePort);
+					} catch (IOException e) {
+						System.out.println("C: Could not contact node on port " + nodePort + " for shutdown.");
+						Logger.log("Failed to send shutdown to node " + nodePort + ": " + e.getMessage());
+					}
+				}
+
+				Logger.log("System shutdown complete.");
 				s.close();
-				System.exit(0);  // ✅ Graceful coordinator shutdown
+				System.exit(0);
 				return;
 			}
 
