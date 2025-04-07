@@ -1,4 +1,4 @@
-package addOns;
+package addOns.no1;
 
 import java.net.InetAddress;
 

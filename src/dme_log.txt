@@ -4015,3 +4015,38 @@
 [2025-04-07 11:28:19] Node 6001 returned token to coordinator.
 [2025-04-07 11:28:19] Coordinator received shutdown signal. Initiating graceful shutdown.
 [2025-04-07 11:28:19] System shutdown complete.
+[2025-04-07 15:00:36] Node 6001 entered critical section.
+[2025-04-07 15:00:36] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 15:00:41] Node 6001 returned token to coordinator.
+[2025-04-07 15:00:41] Node 6001 returned token to coordinator.
+[2025-04-07 15:00:42] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 15:00:42] Node 6001 entered critical section.
+[2025-04-07 15:00:44] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 15:00:45] Node 6001 returned token to coordinator.
+[2025-04-07 15:00:45] Node 6001 returned token to coordinator.
+[2025-04-07 15:00:45] Node 6002 entered critical section.
+[2025-04-07 15:00:47] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 15:00:48] Node 6002 returned token to coordinator.
+[2025-04-07 15:00:48] Node 6002 returned token to coordinator.
+[2025-04-07 15:00:48] Node 6001 entered critical section.
+[2025-04-07 15:00:49] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 15:00:50] Node 6001 returned token to coordinator.
+[2025-04-07 15:00:50] Node 6001 returned token to coordinator.
+[2025-04-07 15:00:50] Node 6002 entered critical section.
+[2025-04-07 15:00:52] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 15:00:55] Node 6002 returned token to coordinator.
+[2025-04-07 15:00:55] Node 6002 returned token to coordinator.
+[2025-04-07 15:00:55] Node 6001 entered critical section.
+[2025-04-07 15:00:56] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 15:00:59] Node 6001 returned token to coordinator.
+[2025-04-07 15:00:59] Node 6001 returned token to coordinator.
+[2025-04-07 15:00:59] Node 6002 entered critical section.
+[2025-04-07 15:01:01] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 15:01:02] Node 6002 returned token to coordinator.
+[2025-04-07 15:01:02] Node 6002 returned token to coordinator.
+[2025-04-07 15:01:02] Node 6001 entered critical section.
+[2025-04-07 15:01:04] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 15:01:07] Node 6001 returned token to coordinator.
+[2025-04-07 15:01:07] Node 6001 returned token to coordinator.
+[2025-04-07 15:01:07] Coordinator received shutdown signal. Initiating graceful shutdown.
+[2025-04-07 15:01:07] System shutdown complete.
