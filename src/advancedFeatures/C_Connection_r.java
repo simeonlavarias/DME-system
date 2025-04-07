@@ -22,34 +22,31 @@ public class C_Connection_r extends Thread{
     }
 
 	public void run() {
-		final int NODE = 0;
-		final int PORT = 1;
-
-		String[] request = new String[2];
-
 		System.out.println("C:connection IN  dealing with request from socket " + s);
 		try {
 			// read request from node
 			in = s.getInputStream();
 			bin = new BufferedReader(new InputStreamReader(in));
 
-			request[NODE] = bin.readLine();
-			request[PORT] = bin.readLine();
-			request[2] = request[PORT].equals("6001") ? "high" : "normal";  // Only node 6001 is prioritized
-			buffer.saveRequest(request);
+			String ip = bin.readLine();        // Read IP
+			String port = bin.readLine();      // Read Port
+			String priority = port.equals("6001") ? "high" : "normal"; // Assign priority
 
-			// Log the token request with timestamp
-			Logger.log("Coordinator received token request from " + request[NODE] + ":" + request[PORT]);
+			// ✅ Save to buffer using new method
+			buffer.saveRequest(ip, port, priority);
+
+			// ✅ Log with priority
+			Logger.log("Coordinator received token request from " + ip + ":" + port + " with priority " + priority);
 
 			s.close();
-			System.out.println("C:connection OUT    received and recorded request from " + request[NODE] + ":" + request[PORT] + "  (socket closed)");
+			System.out.println("C:connection OUT    received and recorded request from " + ip + ":" + port + "  (socket closed)");
 
 		} catch (IOException e) {
 			System.out.println(e);
 			System.exit(1);
 		}
 
+		// Show current buffer state
 		buffer.show();
 	}
-
 }

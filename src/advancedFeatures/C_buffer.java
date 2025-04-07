@@ -4,37 +4,62 @@ import java.util.Vector;
 
 public class C_buffer {
 
-	private Vector<String[]> buffer;
+	private Vector<Request> buffer;
 
 	public C_buffer() {
-		buffer = new Vector<String[]>();
+		buffer = new Vector<Request>();
+	}
+
+	class Request {
+		String ip;
+		String port;
+		String priority; // "high" or "normal"
+		long timestamp;  // For starvation prevention
+
+		public Request(String ip, String port, String priority) {
+			this.ip = ip;
+			this.port = port;
+			this.priority = priority;
+			this.timestamp = System.currentTimeMillis();
+		}
+	}
+
+	public synchronized void saveRequest(String ip, String port, String priority) {
+		buffer.add(new Request(ip, port, priority));
 	}
 
 	public synchronized int size() {
 		return buffer.size();
 	}
 
-	public synchronized void saveRequest(String[] request) {
-		buffer.add(request);  // [0]=IP, [1]=Port, [2]=Priority ("high"/"normal")
+	public synchronized void show() {
+		for (Request r : buffer) {
+			System.out.println(r.ip + "  " + r.port + "  (" + r.priority + ")");
+		}
 	}
 
 	public synchronized String[] getHighestPriorityRequest() {
 		if (buffer.isEmpty()) return null;
 
+		long now = System.currentTimeMillis();
 		int index = 0;
+
 		for (int i = 1; i < buffer.size(); i++) {
-			String[] current = buffer.get(i);
-			String[] best = buffer.get(index);
-			if (current[2].equals("high") && best[2].equals("normal")) {
-				index = i; // current has higher priority
+			Request current = buffer.get(i);
+			Request best = buffer.get(index);
+
+			// Promote "normal" requests if waiting too long
+			if (current.priority.equals("normal") && now - current.timestamp > 5000) {
+				current.priority = "high"; // Promote due to starvation
+			}
+
+			// Pick the higher-priority one
+			if (current.priority.equals("high") && best.priority.equals("normal")) {
+				index = i;
 			}
 		}
-		return buffer.remove(index); // Remove and return highest priority
-	}
 
-	public synchronized void show() {
-		for (String[] entry : buffer) {
-			System.out.println(entry[0] + "  " + entry[1] + "  (" + entry[2] + ")");
-		}
+		Request chosen = buffer.remove(index);
+		return new String[]{chosen.ip, chosen.port};
 	}
 }
