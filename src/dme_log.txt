@@ -3210,3 +3210,808 @@
 [2025-04-04 23:45:41] Node 6001 returned token to coordinator.
 [2025-04-04 23:45:42] Coordinator received token request from 127.0.0.1:6002 with priority normal
 [2025-04-04 23:45:44] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:07:11] Node 6001 entered critical section.
+[2025-04-07 11:07:11] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:07:13] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:13] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:16] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:07:16] Node 6001 entered critical section.
+[2025-04-07 11:07:20] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:07:21] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:21] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:21] Node 6002 entered critical section.
+[2025-04-07 11:07:23] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:07:24] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:24] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:24] Node 6001 entered critical section.
+[2025-04-07 11:07:26] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:26] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:27] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:07:27] Node 6002 entered critical section.
+[2025-04-07 11:07:28] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:07:31] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:31] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:31] Node 6001 entered critical section.
+[2025-04-07 11:07:33] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:33] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:34] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:07:34] Node 6002 entered critical section.
+[2025-04-07 11:07:34] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:07:38] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:38] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:38] Node 6001 entered critical section.
+[2025-04-07 11:07:41] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:41] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:42] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:07:42] Node 6002 entered critical section.
+[2025-04-07 11:07:43] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:07:45] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:45] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:45] Node 6001 entered critical section.
+[2025-04-07 11:07:47] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:07:49] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:49] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:49] Node 6002 entered critical section.
+[2025-04-07 11:07:49] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:07:52] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:52] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:52] Node 6001 entered critical section.
+[2025-04-07 11:07:54] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:54] Node 6001 returned token to coordinator.
+[2025-04-07 11:07:55] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:07:55] Node 6002 entered critical section.
+[2025-04-07 11:07:57] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:07:58] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:58] Node 6002 returned token to coordinator.
+[2025-04-07 11:07:58] Node 6001 entered critical section.
+[2025-04-07 11:07:59] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:08:01] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:01] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:01] Node 6002 entered critical section.
+[2025-04-07 11:08:03] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:08:06] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:06] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:06] Node 6001 entered critical section.
+[2025-04-07 11:08:09] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:08:11] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:11] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:11] Node 6002 entered critical section.
+[2025-04-07 11:08:14] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:08:15] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:15] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:15] Node 6001 entered critical section.
+[2025-04-07 11:08:19] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:19] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:19] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:08:19] Node 6002 entered critical section.
+[2025-04-07 11:08:22] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:08:23] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:23] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:23] Node 6001 entered critical section.
+[2025-04-07 11:08:23] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:08:26] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:26] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:26] Node 6002 entered critical section.
+[2025-04-07 11:08:29] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:08:29] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:29] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:29] Node 6001 entered critical section.
+[2025-04-07 11:08:30] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:08:32] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:32] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:32] Node 6002 entered critical section.
+[2025-04-07 11:08:32] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:08:34] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:34] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:35] Node 6001 entered critical section.
+[2025-04-07 11:08:38] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:08:39] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:39] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:39] Node 6002 entered critical section.
+[2025-04-07 11:08:41] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:08:42] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:42] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:42] Node 6001 entered critical section.
+[2025-04-07 11:08:45] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:45] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:45] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:08:45] Node 6001 entered critical section.
+[2025-04-07 11:08:45] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:08:49] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:49] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:49] Node 6002 entered critical section.
+[2025-04-07 11:08:51] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:08:53] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:53] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:53] Node 6001 entered critical section.
+[2025-04-07 11:08:53] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:08:56] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:56] Node 6001 returned token to coordinator.
+[2025-04-07 11:08:56] Node 6002 entered critical section.
+[2025-04-07 11:08:58] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:08:59] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:59] Node 6002 returned token to coordinator.
+[2025-04-07 11:08:59] Node 6001 entered critical section.
+[2025-04-07 11:09:01] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:09:03] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:03] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:03] Node 6002 entered critical section.
+[2025-04-07 11:09:03] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:09:05] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:05] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:06] Node 6001 entered critical section.
+[2025-04-07 11:09:08] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:09:10] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:10] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:10] Node 6002 entered critical section.
+[2025-04-07 11:09:11] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:09:12] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:12] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:12] Node 6001 entered critical section.
+[2025-04-07 11:09:13] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:09:17] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:17] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:17] Node 6002 entered critical section.
+[2025-04-07 11:09:17] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:09:21] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:21] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:21] Node 6001 entered critical section.
+[2025-04-07 11:09:23] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:09:23] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:23] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:24] Node 6002 entered critical section.
+[2025-04-07 11:09:26] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:09:26] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:26] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:26] Node 6001 entered critical section.
+[2025-04-07 11:09:27] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:09:31] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:31] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:31] Node 6002 entered critical section.
+[2025-04-07 11:09:33] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:09:35] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:35] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:35] Node 6001 entered critical section.
+[2025-04-07 11:09:38] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:09:39] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:39] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:39] Node 6002 entered critical section.
+[2025-04-07 11:09:40] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:09:43] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:43] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:43] Node 6001 entered critical section.
+[2025-04-07 11:09:45] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:09:48] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:48] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:48] Node 6002 entered critical section.
+[2025-04-07 11:09:49] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:09:53] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:53] Node 6002 returned token to coordinator.
+[2025-04-07 11:09:53] Node 6001 entered critical section.
+[2025-04-07 11:09:55] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:09:58] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:58] Node 6001 returned token to coordinator.
+[2025-04-07 11:09:58] Node 6002 entered critical section.
+[2025-04-07 11:09:58] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:10:01] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:01] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:01] Node 6001 entered critical section.
+[2025-04-07 11:10:03] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:10:05] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:05] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:05] Node 6002 entered critical section.
+[2025-04-07 11:10:06] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:10:10] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:10] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:10] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:10:10] Node 6001 entered critical section.
+[2025-04-07 11:10:13] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:13] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:13] Node 6002 entered critical section.
+[2025-04-07 11:10:15] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:10:17] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:17] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:17] Node 6001 entered critical section.
+[2025-04-07 11:10:20] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:10:22] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:22] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:22] Node 6002 entered critical section.
+[2025-04-07 11:10:24] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:10:26] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:26] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:26] Node 6001 entered critical section.
+[2025-04-07 11:10:28] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:10:31] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:31] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:31] Node 6002 entered critical section.
+[2025-04-07 11:10:33] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:10:35] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:35] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:35] Node 6001 entered critical section.
+[2025-04-07 11:10:38] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:38] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:38] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:10:38] Node 6002 entered critical section.
+[2025-04-07 11:10:40] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:10:41] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:41] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:41] Node 6001 entered critical section.
+[2025-04-07 11:10:44] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:44] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:44] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:10:44] Node 6002 entered critical section.
+[2025-04-07 11:10:45] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:10:48] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:48] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:48] Node 6001 entered critical section.
+[2025-04-07 11:10:50] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:10:51] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:51] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:51] Node 6002 entered critical section.
+[2025-04-07 11:10:53] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:10:54] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:54] Node 6002 returned token to coordinator.
+[2025-04-07 11:10:54] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:10:54] Node 6001 entered critical section.
+[2025-04-07 11:10:59] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:59] Node 6001 returned token to coordinator.
+[2025-04-07 11:10:59] Node 6002 entered critical section.
+[2025-04-07 11:11:00] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:11:03] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:03] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:03] Node 6001 entered critical section.
+[2025-04-07 11:11:05] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:11:05] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:05] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:05] Node 6002 entered critical section.
+[2025-04-07 11:11:07] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:11:08] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:08] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:08] Node 6001 entered critical section.
+[2025-04-07 11:11:08] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:11:12] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:12] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:12] Node 6002 entered critical section.
+[2025-04-07 11:11:13] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:11:16] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:16] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:16] Node 6001 entered critical section.
+[2025-04-07 11:11:16] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:11:21] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:21] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:21] Node 6002 entered critical section.
+[2025-04-07 11:11:21] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:11:24] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:24] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:24] Node 6001 entered critical section.
+[2025-04-07 11:11:27] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:27] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:27] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:11:28] Node 6002 entered critical section.
+[2025-04-07 11:11:28] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:11:32] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:32] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:32] Node 6001 entered critical section.
+[2025-04-07 11:11:34] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:34] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:36] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:11:36] Node 6002 entered critical section.
+[2025-04-07 11:11:37] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:11:40] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:40] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:40] Node 6001 entered critical section.
+[2025-04-07 11:11:44] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:11:44] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:44] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:44] Node 6002 entered critical section.
+[2025-04-07 11:11:45] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:11:47] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:47] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:47] Node 6001 entered critical section.
+[2025-04-07 11:11:47] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:11:52] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:52] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:52] Node 6002 entered critical section.
+[2025-04-07 11:11:54] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:11:56] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:56] Node 6002 returned token to coordinator.
+[2025-04-07 11:11:56] Node 6001 entered critical section.
+[2025-04-07 11:11:58] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:11:59] Node 6001 returned token to coordinator.
+[2025-04-07 11:11:59] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:00] Node 6002 entered critical section.
+[2025-04-07 11:12:00] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:12:03] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:03] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:03] Node 6001 entered critical section.
+[2025-04-07 11:12:04] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:12:07] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:07] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:08] Node 6002 entered critical section.
+[2025-04-07 11:12:10] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:12:11] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:11] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:11] Node 6001 entered critical section.
+[2025-04-07 11:12:13] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:12:15] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:15] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:15] Node 6002 entered critical section.
+[2025-04-07 11:12:17] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:12:19] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:19] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:19] Node 6001 entered critical section.
+[2025-04-07 11:12:23] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:23] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:23] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:12:23] Node 6002 entered critical section.
+[2025-04-07 11:12:26] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:26] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:26] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:12:26] Node 6001 entered critical section.
+[2025-04-07 11:12:29] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:12:30] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:30] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:30] Node 6002 entered critical section.
+[2025-04-07 11:12:32] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:12:35] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:35] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:35] Node 6001 entered critical section.
+[2025-04-07 11:12:35] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:12:38] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:38] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:38] Node 6002 entered critical section.
+[2025-04-07 11:12:40] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:12:43] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:43] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:43] Node 6001 entered critical section.
+[2025-04-07 11:12:44] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:12:47] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:47] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:47] Node 6002 entered critical section.
+[2025-04-07 11:12:49] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:12:50] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:50] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:50] Node 6001 entered critical section.
+[2025-04-07 11:12:51] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:12:52] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:52] Node 6001 returned token to coordinator.
+[2025-04-07 11:12:52] Node 6002 entered critical section.
+[2025-04-07 11:12:53] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:12:56] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:56] Node 6002 returned token to coordinator.
+[2025-04-07 11:12:56] Node 6001 entered critical section.
+[2025-04-07 11:12:59] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:13:00] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:00] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:00] Node 6002 entered critical section.
+[2025-04-07 11:13:02] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:02] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:02] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:13:02] Node 6001 entered critical section.
+[2025-04-07 11:13:04] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:13:07] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:07] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:07] Node 6002 entered critical section.
+[2025-04-07 11:13:09] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:13:12] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:12] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:12] Node 6001 entered critical section.
+[2025-04-07 11:13:13] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:13:15] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:15] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:15] Node 6002 entered critical section.
+[2025-04-07 11:13:18] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:13:19] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:19] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:19] Node 6001 entered critical section.
+[2025-04-07 11:13:20] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:13:24] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:24] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:24] Node 6002 entered critical section.
+[2025-04-07 11:13:24] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:13:26] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:26] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:26] Node 6001 entered critical section.
+[2025-04-07 11:13:30] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:13:30] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:30] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:30] Node 6002 entered critical section.
+[2025-04-07 11:13:31] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:13:34] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:34] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:34] Node 6001 entered critical section.
+[2025-04-07 11:13:37] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:13:37] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:37] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:37] Node 6002 entered critical section.
+[2025-04-07 11:13:39] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:13:40] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:40] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:40] Node 6001 entered critical section.
+[2025-04-07 11:13:43] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:13:45] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:45] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:45] Node 6002 entered critical section.
+[2025-04-07 11:13:45] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:13:48] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:48] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:48] Node 6001 entered critical section.
+[2025-04-07 11:13:52] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:13:53] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:53] Node 6001 returned token to coordinator.
+[2025-04-07 11:13:53] Node 6002 entered critical section.
+[2025-04-07 11:13:54] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:13:57] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:57] Node 6002 returned token to coordinator.
+[2025-04-07 11:13:57] Node 6001 entered critical section.
+[2025-04-07 11:14:00] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:14:01] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:01] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:01] Node 6002 entered critical section.
+[2025-04-07 11:14:03] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:03] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:04] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:14:04] Node 6001 entered critical section.
+[2025-04-07 11:14:06] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:06] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:07] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:14:07] Node 6002 entered critical section.
+[2025-04-07 11:14:08] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:14:12] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:12] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:12] Node 6001 entered critical section.
+[2025-04-07 11:14:14] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:14:14] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:14] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:14] Node 6002 entered critical section.
+[2025-04-07 11:14:17] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:14:17] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:17] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:17] Node 6001 entered critical section.
+[2025-04-07 11:14:20] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:14:21] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:21] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:21] Node 6002 entered critical section.
+[2025-04-07 11:14:23] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:14:25] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:25] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:25] Node 6001 entered critical section.
+[2025-04-07 11:14:27] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:14:29] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:29] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:29] Node 6002 entered critical section.
+[2025-04-07 11:14:30] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:14:34] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:34] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:34] Node 6001 entered critical section.
+[2025-04-07 11:14:36] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:36] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:36] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:14:36] Node 6002 entered critical section.
+[2025-04-07 11:14:36] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:14:39] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:39] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:39] Node 6001 entered critical section.
+[2025-04-07 11:14:41] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:14:41] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:41] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:41] Node 6002 entered critical section.
+[2025-04-07 11:14:43] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:14:46] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:46] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:46] Node 6001 entered critical section.
+[2025-04-07 11:14:46] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:14:49] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:49] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:49] Node 6002 entered critical section.
+[2025-04-07 11:14:50] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:14:54] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:54] Node 6002 returned token to coordinator.
+[2025-04-07 11:14:54] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:14:54] Node 6001 entered critical section.
+[2025-04-07 11:14:57] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:57] Node 6001 returned token to coordinator.
+[2025-04-07 11:14:57] Node 6002 entered critical section.
+[2025-04-07 11:14:59] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:15:02] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:02] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:02] Node 6001 entered critical section.
+[2025-04-07 11:15:05] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:15:05] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:05] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:05] Node 6002 entered critical section.
+[2025-04-07 11:15:06] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:15:10] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:10] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:10] Node 6001 entered critical section.
+[2025-04-07 11:15:13] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:15:15] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:15] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:15] Node 6002 entered critical section.
+[2025-04-07 11:15:17] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:15:18] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:18] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:18] Node 6001 entered critical section.
+[2025-04-07 11:15:20] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:20] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:21] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:15:21] Node 6002 entered critical section.
+[2025-04-07 11:15:23] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:15:24] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:24] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:24] Node 6001 entered critical section.
+[2025-04-07 11:15:26] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:26] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:27] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:15:27] Node 6001 entered critical section.
+[2025-04-07 11:15:28] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:15:31] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:31] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:31] Node 6002 entered critical section.
+[2025-04-07 11:15:32] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:15:34] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:34] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:34] Node 6001 entered critical section.
+[2025-04-07 11:15:35] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:15:37] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:37] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:37] Node 6002 entered critical section.
+[2025-04-07 11:15:38] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:15:40] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:40] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:40] Node 6001 entered critical section.
+[2025-04-07 11:15:43] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:15:44] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:44] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:44] Node 6002 entered critical section.
+[2025-04-07 11:15:45] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:15:47] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:47] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:47] Node 6001 entered critical section.
+[2025-04-07 11:15:49] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:15:50] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:50] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:50] Node 6002 entered critical section.
+[2025-04-07 11:15:52] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:15:52] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:52] Node 6002 returned token to coordinator.
+[2025-04-07 11:15:53] Node 6001 entered critical section.
+[2025-04-07 11:15:55] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:15:56] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:56] Node 6001 returned token to coordinator.
+[2025-04-07 11:15:56] Node 6002 entered critical section.
+[2025-04-07 11:15:56] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:16:00] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:00] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:00] Node 6001 entered critical section.
+[2025-04-07 11:16:03] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:16:05] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:05] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:05] Node 6002 entered critical section.
+[2025-04-07 11:16:08] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:16:09] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:09] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:09] Node 6001 entered critical section.
+[2025-04-07 11:16:09] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:16:13] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:13] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:13] Node 6002 entered critical section.
+[2025-04-07 11:16:14] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:16:18] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:18] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:18] Node 6001 entered critical section.
+[2025-04-07 11:16:21] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:16:21] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:21] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:21] Node 6002 entered critical section.
+[2025-04-07 11:16:23] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:16:24] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:24] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:24] Node 6001 entered critical section.
+[2025-04-07 11:16:26] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:16:26] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:26] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:27] Node 6002 entered critical section.
+[2025-04-07 11:16:28] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:16:30] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:30] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:30] Node 6001 entered critical section.
+[2025-04-07 11:16:31] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:16:35] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:35] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:35] Node 6002 entered critical section.
+[2025-04-07 11:16:36] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:16:39] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:39] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:40] Node 6001 entered critical section.
+[2025-04-07 11:16:40] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:16:42] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:42] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:42] Node 6002 entered critical section.
+[2025-04-07 11:16:44] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:16:46] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:46] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:47] Node 6001 entered critical section.
+[2025-04-07 11:16:48] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:16:49] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:49] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:49] Node 6002 entered critical section.
+[2025-04-07 11:16:50] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:16:53] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:53] Node 6002 returned token to coordinator.
+[2025-04-07 11:16:53] Node 6001 entered critical section.
+[2025-04-07 11:16:54] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:16:57] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:57] Node 6001 returned token to coordinator.
+[2025-04-07 11:16:57] Node 6002 entered critical section.
+[2025-04-07 11:16:57] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:17:00] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:00] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:00] Node 6001 entered critical section.
+[2025-04-07 11:17:02] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:02] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:02] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:17:02] Node 6001 entered critical section.
+[2025-04-07 11:17:03] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:17:07] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:07] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:07] Node 6002 entered critical section.
+[2025-04-07 11:17:08] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:17:09] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:09] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:10] Node 6001 entered critical section.
+[2025-04-07 11:17:11] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:17:13] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:13] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:13] Node 6002 entered critical section.
+[2025-04-07 11:17:16] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:17:17] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:17] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:18] Node 6001 entered critical section.
+[2025-04-07 11:17:20] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:17:22] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:22] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:22] Node 6002 entered critical section.
+[2025-04-07 11:17:25] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:17:26] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:26] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:26] Node 6001 entered critical section.
+[2025-04-07 11:17:28] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:17:30] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:30] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:30] Node 6002 entered critical section.
+[2025-04-07 11:17:33] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:33] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:33] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:17:33] Node 6001 entered critical section.
+[2025-04-07 11:17:36] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:17:37] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:37] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:37] Node 6002 entered critical section.
+[2025-04-07 11:17:37] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:17:40] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:40] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:40] Node 6001 entered critical section.
+[2025-04-07 11:17:42] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:17:42] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:42] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:42] Node 6002 entered critical section.
+[2025-04-07 11:17:44] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:17:45] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:45] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:45] Node 6001 entered critical section.
+[2025-04-07 11:17:47] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:17:49] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:49] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:49] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:17:49] Node 6001 entered critical section.
+[2025-04-07 11:17:54] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:54] Node 6001 returned token to coordinator.
+[2025-04-07 11:17:54] Node 6002 entered critical section.
+[2025-04-07 11:17:54] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:17:57] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:57] Node 6002 returned token to coordinator.
+[2025-04-07 11:17:57] Node 6001 entered critical section.
+[2025-04-07 11:17:59] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:18:01] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:01] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:02] Node 6002 entered critical section.
+[2025-04-07 11:18:02] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:18:06] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:06] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:06] Node 6001 entered critical section.
+[2025-04-07 11:18:09] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:18:09] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:09] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:10] Node 6002 entered critical section.
+[2025-04-07 11:18:11] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:18:12] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:12] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:12] Node 6001 entered critical section.
+[2025-04-07 11:18:13] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:18:15] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:15] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:15] Node 6002 entered critical section.
+[2025-04-07 11:18:17] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:17] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:17] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:18:17] Node 6001 entered critical section.
+[2025-04-07 11:18:18] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:18:19] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:19] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:20] Node 6002 entered critical section.
+[2025-04-07 11:18:22] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:22] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:22] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:18:22] Node 6001 entered critical section.
+[2025-04-07 11:18:24] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:18:25] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:25] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:25] Node 6002 entered critical section.
+[2025-04-07 11:18:27] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:18:28] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:28] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:28] Node 6001 entered critical section.
+[2025-04-07 11:18:30] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:30] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:31] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:18:31] Node 6001 entered critical section.
+[2025-04-07 11:18:32] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:18:34] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:34] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:34] Node 6002 entered critical section.
+[2025-04-07 11:18:35] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:18:37] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:37] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:37] Node 6001 entered critical section.
+[2025-04-07 11:18:40] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:18:41] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:41] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:41] Node 6002 entered critical section.
+[2025-04-07 11:18:43] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:18:43] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:43] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:44] Node 6001 entered critical section.
+[2025-04-07 11:18:46] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:18:47] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:47] Node 6001 returned token to coordinator.
+[2025-04-07 11:18:47] Node 6002 entered critical section.
+[2025-04-07 11:18:48] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:18:50] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:50] Node 6002 returned token to coordinator.
+[2025-04-07 11:18:50] Node 6001 entered critical section.
+[2025-04-07 11:18:50] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:27:48] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:27:48] Node 6001 entered critical section.
+[2025-04-07 11:27:52] Node 6001 returned token to coordinator.
+[2025-04-07 11:27:52] Node 6001 returned token to coordinator.
+[2025-04-07 11:27:52] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:27:52] Node 6001 entered critical section.
+[2025-04-07 11:27:55] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:27:56] Node 6001 returned token to coordinator.
+[2025-04-07 11:27:56] Node 6001 returned token to coordinator.
+[2025-04-07 11:27:56] Node 6002 entered critical section.
+[2025-04-07 11:27:57] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:28:00] Node 6002 returned token to coordinator.
+[2025-04-07 11:28:00] Node 6002 returned token to coordinator.
+[2025-04-07 11:28:00] Node 6001 entered critical section.
+[2025-04-07 11:28:01] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:28:05] Node 6001 returned token to coordinator.
+[2025-04-07 11:28:05] Node 6001 returned token to coordinator.
+[2025-04-07 11:28:05] Node 6002 entered critical section.
+[2025-04-07 11:28:06] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:28:09] Node 6002 returned token to coordinator.
+[2025-04-07 11:28:09] Node 6002 returned token to coordinator.
+[2025-04-07 11:28:09] Node 6001 entered critical section.
+[2025-04-07 11:28:11] Coordinator received token request from 127.0.0.1:6002 with priority normal
+[2025-04-07 11:28:14] Node 6001 returned token to coordinator.
+[2025-04-07 11:28:14] Node 6001 returned token to coordinator.
+[2025-04-07 11:28:14] Node 6002 entered critical section.
+[2025-04-07 11:28:15] Coordinator received token request from 127.0.0.1:6001 with priority high
+[2025-04-07 11:28:16] Node 6002 returned token to coordinator.
+[2025-04-07 11:28:16] Node 6002 returned token to coordinator.
+[2025-04-07 11:28:16] Node 6001 entered critical section.
+[2025-04-07 11:28:19] Node 6001 returned token to coordinator.
+[2025-04-07 11:28:19] Node 6001 returned token to coordinator.
+[2025-04-07 11:28:19] Coordinator received shutdown signal. Initiating graceful shutdown.
+[2025-04-07 11:28:19] System shutdown complete.

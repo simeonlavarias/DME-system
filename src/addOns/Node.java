@@ -1,4 +1,4 @@
-package advancedFeatures;
+package addOns;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,10 +9,6 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Random;
-import java.io.*;
-import java.net.*;
-import java.util.*;
-import java.text.SimpleDateFormat;
 
 public class Node{
 	private int requestCount = 0; // Track how many times this node requested the token
